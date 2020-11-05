@@ -3,8 +3,10 @@ output_dir: "."
 navbar:
   title: "Home"
   right:
-    - text: "About"
-      href: about.html
+    - text: "Experience"
+      href: experience.html
+    - text: "Homework 4 Dashboard"
+      href: dashboard.html
     - icon: fa-envelope fa-lg
       href: mailto:<egbamforth@gmail.com>
     - icon: fa-github fa-lg

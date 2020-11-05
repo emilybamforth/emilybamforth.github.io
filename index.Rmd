@@ -16,5 +16,5 @@ You can learn more about my academic and professional experience on my "About" p
 
 I think it is also important to utilize this platform to introduce the world to Rosie:
 
-![](./Rosie_3.jpg)
+<img src="Rosie_3.jpg" style="width:50%">
 

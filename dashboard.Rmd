@@ -1,0 +1,98 @@
+---
+title: "Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    source: embed
+---
+
+For Homework 4, I am practicing using `plotly` to create some interactive graphs, based on the `instacart` dataset from `p8105.datasets`. Instacart is a same-day grocery delivery service. This dataset includes information such as product number and name, the aisle and department, and the day of the week and hour of the day on which the order was placed.
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+```
+
+```{r clean_data, message = FALSE, warning = FALSE}
+n_items_df =
+  instacart %>%
+        group_by(order_id) %>% 
+        summarize(n_items = n())
+
+n_frozen_df =
+  instacart %>%
+    filter(department == "frozen") %>% 
+        group_by(order_id) %>% 
+        summarize(n_frozen = n())
+
+instacart_df =
+  instacart %>% 
+  left_join(n_items_df) %>% 
+  left_join(n_frozen_df) %>% 
+  select(order_id, n_items, n_frozen, product_name, reordered, order_dow, order_hour_of_day, aisle, department) %>% 
+  filter(department == "frozen")
+```
+
+First, I created a smaller dataset to work with, as this dataset is quite large. I limited it to items only in the frozen foods aisle, resulting in `r nrow(instacart_df)` observations. I created two new variables, which I then added to the main dataframe using `left_join`, representing the total number of items in an order, and the total number of frozen items in an order. I then selected the variables I thought would be most interesting to examine using `plotly`. 
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r Scatter_Plot}
+instacart_df %>%
+  mutate(text_label = str_c(n_frozen, " Frozen, ", n_items, " Total Items, ", "Ratio: ", n_frozen/n_items)) %>% 
+    plot_ly(
+      x = ~n_frozen, y = ~n_items,
+    alpha = .5, type = "scatter", mode = "markers", colors = "viridis",  text = ~text_label) %>% 
+  layout(
+    title = "Proportion of Frozen Food Items to Total Order Size",
+    xaxis = list(title = "Number of Frozen Items Ordered"), 
+    yaxis = list(title = "Number of Items Ordered")
+      )
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r Box_Plot}
+instacart_df %>%
+  mutate(aisle = fct_reorder(aisle, order_hour_of_day)) %>% 
+  plot_ly(
+    x = ~order_hour_of_day, y = ~aisle, color = ~aisle,
+    type = "box", colors = "viridis") %>% 
+  layout(
+    title = "Distribution of Order Times by Aisle",
+    xaxis = list(
+      title = "Hour",
+      ticktext = list("6am","12pm","6pm", "12am"),
+      tickvals = list(6, 12, 18,24)
+      ), 
+    yaxis = list(title = "Aisle")
+      )
+```
+
+### Chart C
+
+```{r Bar_Graph}
+instacart_df %>% 
+  count(aisle) %>% 
+  mutate(aisle = fct_reorder(aisle, n)) %>% 
+  plot_ly(
+      x = ~aisle, y = ~n, color = ~aisle,
+      type = "bar", colors = "viridis"
+      ) %>% 
+  layout(
+    title = "Frozen Food Orders by Aisle",
+    xaxis = list(title = "Aisle"),
+    yaxis = list(title = "Number of Items")
+      )
+```
+
+
