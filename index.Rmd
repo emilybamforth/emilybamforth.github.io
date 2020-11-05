@@ -6,4 +6,11 @@ output:
     toc_float: true
 ---
 
-# Welcome to my website
+# Welcome!
+
+My name is Emily and I am a second-year MPH student in Population and Family Health at the Mailman School of Public Health at Columbia University.
+
+I am currently a student in P8105 (Data Science 1). As a part of this course, I am building this website as I learn more about the world of data science and R.
+
+You can learn more about my academic and professional experience on the about page!
+

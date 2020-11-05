@@ -9,6 +9,8 @@ navbar:
       href: mailto:<egbamforth@gmail.com>
     - icon: fa-github fa-lg
       href: http://github.com/emilybamforth/
+    - icon: fa-linkedin fa-lg
+      href: http://www.linkedin.com/in/emilybamforth
 output:
   html_document:
     theme: sandstone
