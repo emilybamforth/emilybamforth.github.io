@@ -1,9 +1,11 @@
 ---
-title: "Emily Bamforth"
+title: "About me"
 output: 
   html_document:
     toc: true
     toc_float: true
 ---
 
-# Welcome to my website
+# About me
+
+
