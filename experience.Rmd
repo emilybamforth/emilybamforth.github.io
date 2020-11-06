@@ -21,6 +21,8 @@ I am a current Masters in Public Health Candidate in the Department of Populatio
 
 * Important Coursework: Epidemiology II; Spatial Epidemiology; Public Health GIS; Data Science I; Analysis of Categorical Data; Quantitative Data Analysis; Qualitative Data Analysis; Research Design and Data Collection; Public Health Program Planning
 
+<br>
+
 **Bryn Mawr College**  
 *Bryn Mawr, PA*  
 *Graduated: May 2016*
@@ -32,6 +34,8 @@ I am a current Masters in Public Health Candidate in the Department of Populatio
 * Awards: Graduated magna cum laude; Department honors in Anthropology
 
 * Thesis: *"You have a woman in your brewery!?"* Constructing Femininity and Belonging in the Brewing Industry
+
+<br>
 
 **School for International Training: International Honors Program**  
 *Jan-May 2015*
@@ -49,6 +53,8 @@ I am a current Masters in Public Health Candidate in the Department of Populatio
 * Performed coding of 8 focus group transcripts and developed codebook for data analysis
 * Performing data analysis utilizing Dedoose and contributing to the development of manuscripts for publication
 
+<br>
+
 **Mailman School of Public Health, Columbia University**  
 **Lead Graduate Teaching Assistant**  
 *New York, NY*  
@@ -57,6 +63,8 @@ I am a current Masters in Public Health Candidate in the Department of Populatio
 * One of two lead graduate teaching assistants for PUBH 6051, “Public Health Interventions”, a first-year graduate course covering the theory of public health interventions, program planning and evaluation, and systems thinking
 * Supported faculty in developing course content, including contributing to syllabus development and assisting with the preparation of content for new online platforms (due to COVID-19)
 * Managing a team of 10 TAs and providing administrative support to a teaching team of 5 faculty members, involving overseeing communication and grading for 400+ students
+
+<br>
 
 **University of California, Davis**  
 **Resaerch Assistant**  
@@ -76,6 +84,8 @@ I am a current Masters in Public Health Candidate in the Department of Populatio
 * Collaborated with the “Boogie on the Boulevard” team to transition their community event to a virtual program 
 * Managed data cleaning and tracking documents to ensure a smooth event planning process
 * Effectively communicated with program partners and composed communications and marketing materials
+
+<br>
 
 **Living Beyond Breast Cancer**  
 *Bala Cynwyd, PA*  
@@ -100,13 +110,15 @@ I am a current Masters in Public Health Candidate in the Department of Populatio
 * Successfully coordinated nutrition and cooking program for low-income women with breast cancer and increased attendance to 15-25 participants per class
 * Developed and launched fitness class to complement nutrition programming, with attendance near 10-15
 
+<br>
+
 **Project HOME & Pennsylvania Health Access Network**  
 **Franklin Fellow**  
 *Philadelphia, PA*  
 *Jan-Aug 2016*
 
 * Collaborated with team of 5 to reach goal of 1000 signed petitions for the establishment of patient-centered medical homes and for the expansion of Medicaid to cover supportive housing services in Pennsylvania
-* Collected stories of 6 Medicaid beneficiaries and homeless individuals about their experiences with housing instability and access to healthcare, to be shared with policymakers ([housingashealth.org])
+* Collected stories of 6 Medicaid beneficiaries and homeless individuals about their experiences with housing instability and access to healthcare, to be shared with policymakers
 * Edited 7 pieces of 30-60-minute footage into 2-3 minute clips and wrote blog posts about these stories to increase awareness about homelessness and difficulties in accessing healthcare
 * Actively outreached to 400+ consumers via telephone, provided approximately 5% of these individuals with resources to access health care coverage and tracked communications in Salesforce
 
@@ -119,6 +131,8 @@ I am a current Masters in Public Health Candidate in the Department of Populatio
 
 * Leading meetings and managing a team of 6 students to organize professional, volunteer and academic events and programs on the topic of food and public health for the student body at the Mailman School of Public Health
 
+<br>
+
 **Partners in Health Engage**  
 **Community Building Leader**  
 *Haverford, PA*  
@@ -130,6 +144,8 @@ I am a current Masters in Public Health Candidate in the Department of Populatio
 
 ## Skills
 
-**Data Analysis:** R, SPSS, GIS, Dedoose    
-**Databases, CRMs and Event Planning:** Salesforce, Raiser's Edge, Luminate, Eventbrite
+**Data Analysis:** R, SPSS, GIS, Dedoose 
+
+**Databases, CRMs and Event Planning:** Salesforce, Raiser's Edge, Luminate, Eventbrite  
+
 **General:** Microsoft Office Suite (Excel, Word, PowerPoint, Access)

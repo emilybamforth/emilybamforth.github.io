@@ -5,7 +5,7 @@ navbar:
   right:
     - text: "Experience"
       href: experience.html
-    - text: "Homework 4 Dashboard"
+    - text: "HW 4: Dashboard"
       href: dashboard.html
     - icon: fa-envelope fa-lg
       href: mailto:<egbamforth@gmail.com>

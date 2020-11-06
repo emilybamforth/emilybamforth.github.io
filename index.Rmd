@@ -8,13 +8,18 @@ output:
 
 #### Welcome!
 
+<div class = "row">
+
+<div class = "col-md-4">
 My name is Emily and I am a second-year MPH student in Population and Family Health at the Mailman School of Public Health at Columbia University.
 
 I am currently a student in P8105 (Data Science 1). As a part of this course, I am building this website as I learn more about the world of data science and R.
 
-You can learn more about my academic and professional experience on my "About" page!
+You can learn more about my academic and professional experience on the "Experience" page.
 
-I think it is also important to utilize this platform to introduce the world to Rosie:
+Outside of who I am academically and professionally, I am an avid baker and runner, and I love to go on hikes with my best friend Rosie, pictured here.
+</div>
 
-<img src="Rosie_3.jpg" style="width:50%">
-
+<div class = "col-md-4">
+<img src="Rosie_3.jpg">
+</div>
